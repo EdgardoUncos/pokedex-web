@@ -1,0 +1,9 @@
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\bin\Debug\negocio.dll
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\bin\Debug\negocio.pdb
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\bin\Debug\dominio.dll
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\bin\Debug\dominio.pdb
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.dll
+C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.pdb

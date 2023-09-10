@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokedex-web", "pokedex-web\pokedex-web.csproj", "{73615D95-8695-4B67-A9B1-9D1A2C7AAED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{E3BA38A1-C437-44C9-9363-C345AF893409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{72D1CA99-7591-4D7A-AAFC-56CEE1F430A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73615D95-8695-4B67-A9B1-9D1A2C7AAED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73615D95-8695-4B67-A9B1-9D1A2C7AAED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73615D95-8695-4B67-A9B1-9D1A2C7AAED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73615D95-8695-4B67-A9B1-9D1A2C7AAED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BA38A1-C437-44C9-9363-C345AF893409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BA38A1-C437-44C9-9363-C345AF893409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BA38A1-C437-44C9-9363-C345AF893409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BA38A1-C437-44C9-9363-C345AF893409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D1CA99-7591-4D7A-AAFC-56CEE1F430A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D1CA99-7591-4D7A-AAFC-56CEE1F430A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D1CA99-7591-4D7A-AAFC-56CEE1F430A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D1CA99-7591-4D7A-AAFC-56CEE1F430A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71A967EF-1BF1-4113-B013-679B300760A1}
+	EndGlobalSection
+EndGlobal
