@@ -57,3 +57,7 @@ C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\obj\Debug\pokedex-web
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\obj\Debug\pokedex-web.csproj.CopyComplete
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\obj\Debug\pokedex-web.dll
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\obj\Debug\pokedex-web.pdb
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\bin\dominio.dll
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\bin\negocio.dll
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\bin\dominio.pdb
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\pokedex-web\bin\negocio.pdb

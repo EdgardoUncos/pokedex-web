@@ -7,3 +7,12 @@ C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.csproj.Co
 C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.csproj.CopyComplete
 C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.dll
 C:\Users\GARGO\source\repos\ejemplos-ado-net\negocio\obj\Debug\negocio.pdb
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\bin\Debug\negocio.dll
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\bin\Debug\negocio.pdb
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\bin\Debug\dominio.dll
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\bin\Debug\dominio.pdb
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\obj\Debug\negocio.dll
+C:\Users\GARGO\Desktop\Repositorio\pokedex-web\negocio\obj\Debug\negocio.pdb
