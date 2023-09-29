@@ -12,6 +12,13 @@ namespace pokedex_web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // Autorizacion - Pregunta si es admin sino lo es lo redirige a una pagina de error
+            if (!Seguridad.esAdmin(Session["trainee"]))
+            {
+                Session.Add("error", "Se requiere permisos de admin para acceder a esta pantalla");
+                Response.Redirect("Error.aspx", false);
+            }
+
             PokemonNegocio negocio = new PokemonNegocio();
             dgvPokemons.DataSource = negocio.listarConSP();
             dgvPokemons.DataBind();
