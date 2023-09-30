@@ -88,7 +88,7 @@ namespace negocio
                     aux.Debilidad.Descripcion = (string)datos.Lector["Debilidad"];
 
                     // Agregamos la carga del campo activo
-                    //aux.Activo = bool.Parse(datos.Lector["Activo"].ToString());
+                    aux.Activo = bool.Parse(datos.Lector["Activo"].ToString());
 
                     lista.Add(aux);
                 }
