@@ -3,8 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-
     <div class="row">
+
         <div class="col-6">
             <div class="mb-3">
                 <label for="txtId" class="form-label">Id</label>
@@ -52,10 +52,31 @@
 
                 </ContentTemplate>
             </asp:UpdatePanel>
-              
-                
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-6">
+            <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                <ContentTemplate>
+                    <div class="mb-3">
+                        <asp:Button Text="Eliminar" ID="btnEliminar" OnClick="btnEliminar_Click" CssClass="btn btn-danger" runat="server" />
+                    </div>
+
+                    <% if (ConfirmaEliminacion)
+                        {
+                            %>
+                    <div class="mb-3">
+                        <asp:CheckBox Text="Confirmar Eliminacion" ID="chkConfirmaEliminacion" runat="server" />
+                        <asp:Button Text="Eliminar" ID="btnConfirmaEliminacion" OnClick="btnConfirmaEliminacion_Click" runat="server" CssClass="btn btn-outline-danger" />
+                    </div>
+                    <%} %>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </div>
+    </div>
+              
+                
    
     
 
