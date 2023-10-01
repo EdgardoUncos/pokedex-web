@@ -21,19 +21,38 @@ namespace pokedex_web
                 {
 
                     // COnfiguracion inicial de la pantalla
-                    ElementoNegocio negocio = new ElementoNegocio();
-                    List<Elemento> lista = negocio.listar();
+                    ElementoNegocio elementoNegocio = new ElementoNegocio();
+                    List<Elemento> listaE = elementoNegocio.listar();
 
                     // Precarga de los desplegables dropdownlist
-                    ddlTipo.DataSource = lista;
+                    ddlTipo.DataSource = listaE;
                     ddlTipo.DataValueField = "Id";
                     ddlTipo.DataTextField = "Descripcion";
                     ddlTipo.DataBind();
 
-                    ddlDebilidad.DataSource = lista;
+                    ddlDebilidad.DataSource = listaE;
                     ddlDebilidad.DataValueField = "Id";
                     ddlDebilidad.DataTextField = "Descripcion";
                     ddlDebilidad.DataBind();
+
+                    if (Request.QueryString["id"] != null)
+                    {
+                        PokemonNegocio negocio = new PokemonNegocio();
+                        List<Pokemon> lista = negocio.listar(Request.QueryString["id"].ToString());
+                        Pokemon seleccionado = lista[0];
+
+                        //Pre cargar todo los campos
+                        string id = Request.QueryString["id"].ToString();
+                        txtId.Text = id;
+                        txtNombre.Text = seleccionado.Nombre;
+                        txtDescripcion.Text = seleccionado.Descripcion;
+                        txtImagenUrl.Text = seleccionado.UrlImagen;
+                        txtNumero.Text = seleccionado.Numero.ToString();
+
+                        ddlTipo.SelectedValue = seleccionado.Tipo.Id.ToString();
+                        ddlDebilidad.SelectedValue = seleccionado.Debilidad.Id.ToString();
+                        txtImagenUrl_TextChanged(sender, e);
+                    }
                 }
             }
             catch (Exception ex)
@@ -71,7 +90,13 @@ namespace pokedex_web
                 nuevo.Debilidad = new Elemento();
                 nuevo.Debilidad.Id = int.Parse(ddlDebilidad.SelectedValue);
 
-                negocio.agregarConSP(nuevo);
+                if (Request.QueryString["id"] != null)
+                {
+                    nuevo.Id = int.Parse(Request.QueryString["id"].ToString());
+                    negocio.modificarConSP(nuevo);
+                }
+                else
+                    negocio.agregarConSP(nuevo);
 
                 Response.Redirect("PokemonsLista.aspx", false);
             }
