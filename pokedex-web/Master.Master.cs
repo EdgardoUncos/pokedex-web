@@ -14,11 +14,11 @@ namespace pokedex_web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!(Page is Login || Page is Registro || Page is Default))
-            {
-                if (!Seguridad.sesionActiva(Session["trainee"]))
-                    Response.Redirect("Login.aspx", true);
-            }
+            //if (!(Page is Login || Page is Registro || Page is Default))
+            //{
+            //    if (!Seguridad.sesionActiva(Session["trainee"]))
+            //        Response.Redirect("Login.aspx", true);
+            //}
         }
 
         protected void btnSalir_Click(object sender, EventArgs e)

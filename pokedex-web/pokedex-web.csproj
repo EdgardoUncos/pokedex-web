@@ -73,6 +73,7 @@
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
     <Content Include="MiPerfil.aspx" />
+    <Content Include="PokemonPaginado.aspx" />
     <Content Include="PokemonsLista.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="MiPerfil.aspx.designer.cs">
       <DependentUpon>MiPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PokemonPaginado.aspx.cs">
+      <DependentUpon>PokemonPaginado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PokemonPaginado.aspx.designer.cs">
+      <DependentUpon>PokemonPaginado.aspx</DependentUpon>
     </Compile>
     <Compile Include="PokemonsLista.aspx.cs">
       <DependentUpon>PokemonsLista.aspx</DependentUpon>

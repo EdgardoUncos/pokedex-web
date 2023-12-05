@@ -6,7 +6,6 @@ C:\Users\GARGO\source\repos\ejemplos-ado-net\dominio\obj\Debug\dominio.dll
 C:\Users\GARGO\source\repos\ejemplos-ado-net\dominio\obj\Debug\dominio.pdb
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\dominio\bin\Debug\dominio.dll
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\dominio\bin\Debug\dominio.pdb
-C:\Users\GARGO\Desktop\Repositorio\pokedex-web\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\dominio\obj\Debug\dominio.dll
 C:\Users\GARGO\Desktop\Repositorio\pokedex-web\dominio\obj\Debug\dominio.pdb

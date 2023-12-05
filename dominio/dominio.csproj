@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Elemento.cs" />
+    <Compile Include="PaginacionRespuesta.cs" />
+    <Compile Include="PaginacionViewModel.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trainee.cs" />
